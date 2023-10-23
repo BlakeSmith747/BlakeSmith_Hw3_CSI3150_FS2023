@@ -1,0 +1,530 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.body {
+  background-color: black;
+  z-index: auto;
+}
+
+.background1 {
+  margin: 0;
+  padding: 0;
+  background-image: url(/images/NewYork1.jpg);
+  background-size: contain;
+  background-attachment: fixed;
+  background-repeat: none;
+  background-position: center center;
+  color: #fff;
+  height: 120vh;
+  width: auto;
+}
+
+.background2 {
+  margin: 0;
+  padding: 0;
+  background-image: url(/images/NewYork2.jpg);
+  background-size: contain;
+  background-attachment: fixed;
+  background-repeat: none;
+  background-position: center center;
+  color: #fff;
+  height: 120vh;
+  width: auto;
+  border-radius: 100px;
+}
+
+.background3 {
+  margin: 0;
+  padding: 0;
+  background-image: url(/images/NewYork3.jpg);
+  background-size: contain;
+  background-attachment: fixed;
+  background-repeat: none;
+  background-position: center center;
+  color: #fff;
+  height: 100vh;
+  width: auto;
+  z-index: -1;
+  border-radius: 100px;
+}
+
+.background4 {
+  margin: 0;
+  padding: 0;
+  background-image: url(/images/NewYork4.jpg);
+  background-size: contain;
+  background-attachment: fixed;
+  background-repeat: none;
+  background-position: center center;
+  color: #fff;
+  height: 100vh;
+  width: auto;
+  /* z-index: -1; */
+  border-radius: 100px;
+}
+
+.background5 {
+  margin: 0;
+  padding: 0;
+  background-image: url(/images/NewYork5.jpeg);
+  background-size: contain;
+  background-attachment: fixed;
+  background-repeat: none;
+  background-position: center center;
+  color: #fff;
+  height: 100vh;
+  width: auto;
+  /* z-index: -1; */
+  border-radius: 100px;
+}
+
+.background6 {
+  margin: 0;
+  padding: 0;
+  background-image: url(/images/NewYork6.jpg);
+  background-size: contain;
+  background-attachment: fixed;
+  background-repeat: none;
+  background-position: center center;
+  color: #fff;
+  height: 100vh;
+  width: auto;
+  /* z-index: -1; */
+  border-radius: 100px;
+}
+
+.background7 {
+  margin: 0;
+  padding: 0;
+  background-image: url(/images/NewYork7.jpg);
+  background-size: contain;
+  background-attachment: fixed;
+  background-repeat: none;
+  background-position: center center;
+  color: #fff;
+  height: 100vh;
+  filter: contrast(90%);
+  width: auto;
+  z-index: -1;
+  border-radius: 100px;
+  margin-top: 180px;
+}
+
+.text1 {
+  text-align: center;
+  margin-top: 60vh;
+  font-size: 120px;
+  color: rgb(240, 70, 8);
+}
+
+.subtext1 {
+  font-size: 40px;
+  color: white;
+  margin-top: 20vh;
+}
+
+.scroll-arrow {
+  font-size: 50px;
+  cursor: pointer;
+  /*  position: fixed; */
+  /* bottom: 20px; */
+  top: 20px;
+
+  z-index: 1000;
+}
+
+.text2 {
+  text-align: center;
+  margin-top: 300px;
+  margin-right: 1250px;
+  margin-left: 200px;
+  font-size: 60px;
+  color: rgb(240, 70, 8);
+}
+
+.info-box {
+  background-color: #000000;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-width: 400px;
+  margin: -250px auto;
+  margin-right: 220px;
+  font-family: Arial, sans-serif;
+}
+
+.more-info {
+  margin-top: 15px;
+}
+
+.read-more-button {
+  background-color: #0073e6;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.read-more-button:hover {
+  background-color: #0057b4;
+}
+
+.layout2 {
+  display: inline-flex;
+  gap: 16px;
+  margin-left: 55px;
+  margin-right: 55px;
+}
+
+.text3 {
+  text-align: center;
+  font-size: 60px;
+  color: yellow;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+.pic1 {
+  height: 600px;
+  width: 520px;
+  /* margin-left: 55px; */
+}
+
+.pic2 {
+  height: 600px;
+  width: 520px;
+}
+
+.pic3 {
+  height: 600px;
+  width: 520px;
+}
+
+.arrow {
+  font-size: 75px;
+  cursor: pointer;
+  margin-left: 250px;
+  padding: 0;
+  color: rgb(198, 163, 10);
+  z-index: 7;
+  margin-top: -115px;
+}
+
+.qtext {
+  display: none;
+  font-size: 14px;
+}
+
+.image1:hover .overlay {
+  display: block;
+}
+
+.image1:hover .qtext {
+  display: block;
+}
+
+.read-more-button2 {
+  background-color: rgb(198, 163, 10);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-left: 780px;
+  font-size: 20px;
+}
+
+.text4 {
+  font-size: 100px;
+  margin-left: 200px;
+  margin-right: 900px;
+  color: rgb(247, 221, 57);
+}
+
+.Subtextbackground4 {
+  font-size: large;
+  color: #fff;
+  margin-left: 900px;
+  margin-top: -550px;
+  margin-right: 30px;
+  background-color: grey;
+  padding: 0;
+  border-color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.WrapText {
+  font-size: 23px;
+  font-style: italic;
+}
+
+.Res {
+  font-size: 23px;
+  font-style: italic;
+}
+
+.layout5 {
+  display: flex;
+  gap: 50px;
+  margin-left: 150px;
+  margin-top: 250px;
+}
+
+.number1 {
+  width: 300px; /* Set the width and height to make it circular */
+  height: 300px;
+  background-color: black; /* Circle background color */
+  border-radius: 50%; /* Create a circle with border-radius */
+  text-align: center;
+  color: rgb(247, 221, 57); /* Text color */
+  font-size: 60px; /* Font size */
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.number2 {
+  width: 300px; /* Set the width and height to make it circular */
+  height: 300px;
+  background-color: black; /* Circle background color */
+  border-radius: 50%; /* Create a circle with border-radius */
+  text-align: center;
+  color: rgb(247, 221, 57); /* Text color */
+  font-size: 60px; /* Font size */
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.hotel {
+  font-size: 25px;
+  color: #fff;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.places {
+  font-size: 25px;
+  color: white;
+  border-radius: auto;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.number3 {
+  width: 300px; /* Set the width and height to make it circular */
+  height: 300px;
+  background-color: black; /* Circle background color */
+  border-radius: 50%; /* Create a circle with border-radius */
+  text-align: center;
+  color: rgb(247, 221, 57); /* Text color */
+  font-size: 60px; /* Font size */
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.repeat {
+  font-size: 25px;
+  color: white;
+  border-radius: auto;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.number4 {
+  width: 300px; /* Set the width and height to make it circular */
+  height: 300px;
+  background-color: black; /* Circle background color */
+  border-radius: 50%; /* Create a circle with border-radius */
+  text-align: center;
+  color: rgb(247, 221, 57); /* Text color */
+  font-size: 60px; /* Font size */
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.safe {
+  font-size: 25px;
+  color: white;
+  border-radius: auto;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.image-container {
+  display: inline-block;
+}
+
+.Peralta {
+  margin-left: 700px;
+  margin-right: 700px;
+  margin-top: 100px;
+  width: 300px; /* Set the desired width */
+  height: 300px; /* Set the same height to maintain aspect ratio */
+  border: 5px solid rgb(22, 223, 246);
+  border-radius: 50%; /* Create a circular border */
+  object-fit: cover; /* Maintain image aspect ratio and crop if needed */
+  object-position: 50% 25%;
+}
+
+.text6 {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 30px;
+  color: rgb(249, 241, 27);
+}
+
+.quote {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 30px;
+  color: #ed0a0a;
+  font-style: italic;
+}
+
+.peralta-arrow {
+  font-size: 66px;
+  cursor: pointer;
+  top: 20px;
+  color: rgb(247, 221, 57);
+  margin-left: 800px;
+  margin-top: 360px;
+  z-index: 1000;
+}
+
+.layout4 {
+  display: flex;
+  gap: 16px;
+  display: inline;
+}
+
+.image_ {
+  width: 415px;
+  height: 415px;
+  /* border: 4px solid darkgreen;
+  border-radius: 50%; */
+  object-fit: cover;
+  object-position: 75% 50%;
+  z-index: -1;
+}
+
+.arrow-button1 {
+  font-size: 75px;
+  cursor: pointer;
+  margin-left: 250px;
+  padding: 0;
+  color: rgb(198, 163, 10);
+  z-index: 7;
+  margin-top: -300px;
+  margin-left: 0;
+}
+
+.arrow-button2 {
+  font-size: 75px;
+  cursor: pointer;
+  color: rgb(198, 163, 10);
+  z-index: 8;
+  margin-top: -110px;
+  margin-left: 1618px;
+}
+
+/* Style the form container */
+form {
+  max-width: 400px;
+  margin-left: 1000px;
+  margin-top: 250px;
+  text-align: left;
+  z-index: 1;
+  padding: 20px;
+  color: transparent;
+  border: 1px solid none;
+  border-radius: 5px;
+}
+
+/* Style text input fields */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  background-color: transparent;
+  padding: 10px;
+  margin-bottom: 15px;
+  z-index: 1;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+  background-color: rgb(247, 221, 57);
+  color: black;
+  z-index: 1;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Change button color on hover */
+input[type="submit"]:hover {
+  z-index: 1;
+  background-color: #0057b4;
+}
+
+/* Style placeholder text */
+::placeholder {
+  z-index: 1;
+  color: #999; /* Change the placeholder text color */
+}
+
+.Contact {
+  font-size: 100px;
+  margin-left: 200px;
+  z-index: 1;
+  margin-top: 200px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(247, 221, 57);
+}
+
+.contact-info {
+  margin-left: 200px;
+  z-index: 1;
+  margin-top: -400px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  /* margin-left: 120px; */
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: black;
+  color: rgb(247, 221, 57);
+  margin-left: 200px;
+}
+
+.fa-twitter {
+  background: black;
+  color: rgb(247, 221, 57);
+}
+
+.fa-instagram {
+  background: black;
+  color: rgb(247, 221, 57);
+}
+
+.fa-pinterest {
+  background: black;
+  color: rgb(247, 221, 57);
+}
+
+.fa-linkedin {
+  background: black;
+  color: rgb(247, 221, 57);
+}
